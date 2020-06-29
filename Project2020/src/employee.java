@@ -55,7 +55,7 @@ public static class Builder{
 
 	@Override
 	public String toString() {
-		return " [name =" + name + ", PhoneNum =" + PhoneNum + ", DOB =" + DOB + ", JobTitle =" + JobTitle
+		return "[name =" + name + ", PhoneNum =" + PhoneNum + ", DOB =" + DOB + ", JobTitle =" + JobTitle
 				+ ", shift =" + shift ;
 	}
 	

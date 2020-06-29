@@ -1,0 +1,3 @@
+¬í  [name :hamda, PhoneNum :656565656565, DoB :25-may-2000]
+¬í  [name :hassan, PhoneNum :44488888888, DoB :23-oct-1999]
+¬í  [name :alex, PhoneNum :5555555555555, DoB :25-may-2003]

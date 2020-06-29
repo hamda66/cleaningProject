@@ -12,7 +12,7 @@ public class inputdeatail {
 		int x =0;
 		
 		
-		FileOutputStream F = new FileOutputStream(new File ("customerDet.txt"));
+		FileOutputStream F = new FileOutputStream(new File ("customerDet.txt"), true);
 		FileOutputStream Q = new FileOutputStream(new File ("EmployeeDet.txt"));
 		ObjectOutputStream O = new ObjectOutputStream(F);
 		ObjectOutputStream R = new ObjectOutputStream(Q);

@@ -44,4 +44,10 @@ public class customer{
 	 
 	 private customer () {}
 
+	@Override
+	public String toString() {
+		return " [name :" + name + ", PhoneNum :" + PhoneNum + ", DoB :" + DOB + "]";
+	}
+
 }
+ 
