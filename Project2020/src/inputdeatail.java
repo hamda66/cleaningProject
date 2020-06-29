@@ -13,7 +13,7 @@ public class inputdeatail {
 		
 		
 		FileOutputStream F = new FileOutputStream(new File ("customerDet.txt"), true);
-		FileOutputStream Q = new FileOutputStream(new File ("EmployeeDet.txt"));
+		FileOutputStream Q = new FileOutputStream(new File ("EmployeeDet.txt"), true);
 		ObjectOutputStream O = new ObjectOutputStream(F);
 		ObjectOutputStream R = new ObjectOutputStream(Q);
 		FileWriter fw = null;
@@ -65,7 +65,7 @@ public class inputdeatail {
 		if(inputchoice==4) {
 			 for (int i = 0; i < cus.size(); i++) {
 			      System.out.println(cus.get(i));
-			    }
+			 }
 			
 		}
 		
