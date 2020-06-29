@@ -52,6 +52,13 @@ public static class Builder{
 		return Employee;
 		
 	}
+
+	@Override
+	public String toString() {
+		return " [name =" + name + ", PhoneNum =" + PhoneNum + ", DOB =" + DOB + ", JobTitle =" + JobTitle
+				+ ", shift =" + shift ;
+	}
+	
 	
 }
 	

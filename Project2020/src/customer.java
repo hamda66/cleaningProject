@@ -1,4 +1,5 @@
-
+import java.util.ArrayList;
+import java.util.List;
 
 public class customer{
 
@@ -28,6 +29,7 @@ public class customer{
 			
 			
 			public customer build(){
+				
 				
 				customer Customer = new customer();
 				Customer.DOB = this.DOB;
