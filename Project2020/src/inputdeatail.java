@@ -34,43 +34,36 @@ public class inputdeatail {
 	    inputchoice = input.nextInt();
 	    ArrayList<customer> cus = new ArrayList<customer>();
 		
+	    AddCustomer b = new AddCustomer();
+	    
 		if (inputchoice == 1) {
-			System.out.println("Name: ");
-			String name = input.next();
-			System.out.println("Phone Number: ");
-			long num = input.nextLong();
-			System.out.println("Date of Birth (DD-MMM-YYYY): ");
-			String dob = input.next();
-			
-			customer Customer = new customer.Builder().phonenum(num)
-					.Name(name)
-					.birthd(dob)
-					.build();
-			
-			
-			cus.add(Customer);
-			int c = cus.size();
-			 for(customer str: cus) {
-				
-				
-				pw.println(str.toString());
-				
-				}
-			 pw.close();
-                 O.close();
-		   		 F.close();
+			b.AddCustomer();
 			
 		}
 		
-		if(inputchoice==4) {
-			 for (int i = 0; i < cus.size(); i++) {
+		
+		 if (inputchoice == 2) {
+			 int AdminChoice = input.nextInt();
+			System.out.println(" ");
+			System.out.println("******Welcome Admin******");
+			System.out.println("input number for following choice: ");
+			System.out.println("1.List Customer");
+			System.out.println("2.empoloyee");
+			
+			if (AdminChoice==1) {
+				int AdminCustomerChoice = input.nextInt();
+				System.out.println("input number for following choice: ");
+				System.out.println("1.List Customer");
+				System.out.println("2.delete customer");
+				
+				if (AdminCustomerChoice==1) {
+					for (int i = 0; i < cus.size(); i++) {
 			      System.out.println(cus.get(i));
 			 }
-			
-		}
-		
-		else {
-			
+				}
+				
+				
+			}
 			
 			
 		}
@@ -80,5 +73,6 @@ public class inputdeatail {
 	}
 	while(inputchoice !=3);
 }
+
 	
 	}
