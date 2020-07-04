@@ -4,7 +4,7 @@ import java.lang.*;
 
 public  class AddCustomer {
  
-	 public static void AddCustomer() throws IOException {
+	 public void AddCustomer() throws IOException {
 		 Scanner input = new Scanner(System.in);
 		   int inputchoice = input.nextInt();
 		    ArrayList<customer> cus = new ArrayList<customer>();
